@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/check.css" />
     <link rel="stylesheet" href="../styles/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/0b1394bbb5.js" crossorigin="anonymous"></script>
@@ -12,9 +12,9 @@
   </head>
 
   <body>
-    <a href="add.html" onclick="newElement()" class="addBtn">
+    <!-- <span onclick="newElement()" class="addBtn">
       <i class="fa-solid fa-plus"></i>
-    </a>
+    </span> -->
 
     <div class="header">
       <a class="dot-home" href="index.html">
@@ -29,33 +29,27 @@
     </div>
 
     <div id="myDIV" class="head">
-      <h2>Assignment List</h2>
-      <form class="example" action="action_page.php">
-        <div class="searchBtn">
-          <input type="text" placeholder="Find Something..." name="search" />
+      <h2>Done List</h2>
+      <div class="searchBtn">
+        <form class="example" action="action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
           <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
 
     <ul id="myUL">
       <li>
-        <a href="edit.html">
-          <p class="asgName">Assignment 1</p>
-          <p class="asgDescription">No description</p>
-        </a>
+        <p class="asgName">Assignment 1</p>
+        <p class="asgDescription">No description</p>
       </li>
       <li>
-        <a href="">
-          <p class="asgName">Assignment 2</p>
-          <p class="asgDescription">No description</p>
-        </a>
+        <p class="asgName">Assignment 2</p>
+        <p class="asgDescription">No description</p>
       </li>
       <li>
-        <a href="">
-          <p class="asgName">Assignment 3</p>
-          <p class="asgDescription">No description</p>
-        </a>
+        <p class="asgName">Assignment 3</p>
+        <p class="asgDescription">No description</p>
       </li>
 
       <li class="checked">Pay bills</li>
