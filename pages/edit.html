@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="stylesheet" href="../styles/add.css" />
+    <link rel="stylesheet" href="../styles/edit.css" />
   </head>
   <body>
     <form action="/action_page.php">
@@ -12,17 +12,17 @@
         <p>Fill to add assignment</p>
         <hr />
 
-        <label for="email"><b>Title</b></label>
-        <input type="text" placeholder="Insert title here..." name="email" id="email" required />
+        <label for="title"><b>Title</b></label>
+        <input type="text" placeholder="Insert title here..." name="title" id="title" required />
 
-        <label for="psw"><b>File/URL</b></label>
-        <input type="text" placeholder="Upload file here..." name="psw" id="psw" required />
+        <label for="file"><b>File/URL</b></label>
+        <input type="file" name="file" id="myFile" />
 
-        <label for="psw-repeat"><b>Description</b></label>
-        <input type="text" placeholder="Insert description here..." name="psw-repeat" id="psw-repeat" required />
+        <label for="desc"><b>Description</b></label>
+        <input type="text" placeholder="Insert description here..." name="desc" id="desc" />
 
-        <label for="psw-repeat"><b>Deadline</b></label>
-        <input type="text" placeholder="Set deadline here..." name="psw-repeat" id="psw-repeat" required />
+        <label for="deadline"><b>Deadline</b></label>
+        <input type="date" name="date" id="deadlineDate" required />
         <hr />
 
         <button type="submit" class="registerbtn" href="index.html">Save</button>
