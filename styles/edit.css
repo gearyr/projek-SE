@@ -27,8 +27,29 @@ body {
   
   input[type="text"]:focus,
   input[type="password"]:focus {
-    background-color: rgb(48, 48, 48);
+    background-color: #c5c5c5;
     outline: none;
+  }
+
+  #myFile{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    background: #f1f1f1;
+    color: black;
+  }
+
+  #deadlineDate{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    background: #f1f1f1;
   }
   
   hr {
