@@ -2,8 +2,8 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8' />
-    <link href='fullcalendar/lib/main.min.css' rel='stylesheet' />
-    <script src='fullcalendar/lib/main.min.js'></script>
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css' rel='stylesheet' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js'></script>
     <link rel="stylesheet" href="styles/calendar.css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
