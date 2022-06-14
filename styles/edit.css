@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(100, 154, 255);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-right: 35%;
+  margin-left: 35%;
+  padding: 16px 16px 32px 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus {
+  background-color: #c5c5c5;
+  outline: none;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  background: #f1f1f1;
+  overflow-x: auto;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  /* border-radius: 30px; */
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: rgb(50, 84, 231);
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+.signin {
+  background-color: rgb(100, 154, 255);
+  text-align: center;
+}
